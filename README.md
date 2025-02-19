@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Candle Stick
+
+A candlestick chart visualization tool that displays Apple Inc. stock price data using Apache ECharts and shadcn UI components.
+
+## Overview
+
+This project is built with Next.js and demonstrates how to display financial data on a candlestick chart. I built it as a learning project to understand how candlestick charts work and to explore interactive data visualization techniques.
+
+[Live Demo](https://candle-stick-sigma.vercel.app/)
+
+## Features
+
+- **Interactive Candlestick Chart:** Visualizes open, close, high, and low stock prices.
+- **Volume Display:** Integrates volume data alongside price movements.
+- **Modern UI:** Styled using shadcn UI components.
+- **Powered by Apache ECharts:** Leverages a powerful charting library for dynamic data rendering.
+
+## Technologies Used
+
+- **Next.js:** React framework for server-side rendering and production-grade applications.
+- **TypeScript:** Provides type safety and enhanced developer experience.
+- **Apache ECharts:** A versatile charting library for creating interactive visualizations.
+- **shadcn UI:** A collection of beautiful, customizable UI components.
+- **Tailwind CSS:** (Optional) For utility-first styling if integrated.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js (v14 or later)
+- npm, yarn, or pnpm
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone the repository:**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   git clone https://github.com/Farzine/candle_stick.git
+   
+2. **Navigate to the project directory:**
+   ```bash
+   cd candle_stick
 
-## Learn More
+3. **Install dependencies:**
+   ```bash
+   npm install
 
-To learn more about Next.js, take a look at the following resources:
+4. **Run the development server:**
+   ```bash
+   npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. **Open your browser:**
+   Visit http://localhost:3000 to view the application.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+- **Chart Visualization:** The main page features a candlestick chart displaying Apple Inc. stock prices.
+- **Interactive Data:** Hover and interact with the chart to explore detailed price and volume information.
+- **Code Exploration:** Check the src directory to see how Apache ECharts is integrated with shadcn UI components.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contributions are welcome! If you have suggestions or improvements, please feel free to open an issue or submit a pull request.
+   
